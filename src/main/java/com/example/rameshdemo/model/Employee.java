@@ -1,22 +1,22 @@
-package model;
+package com.example.rameshdemo.model;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "employees")
+//@Table(name = "employees")
 public class Employee {
 
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private int id;
 
-    @Column(name = "first_name")
+//    @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "last_name")
+//    @Column(name = "last_name")
     private String lastName;
 
-    @Column(name = "email")
+//    @Column(name = "email")
     private String email;
     public int getId() {
         return id;

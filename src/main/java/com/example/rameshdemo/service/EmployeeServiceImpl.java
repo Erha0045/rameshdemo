@@ -1,9 +1,9 @@
-package service;
+package com.example.rameshdemo.service;
 
-import model.Employee;
+import com.example.rameshdemo.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repo.EmployeeRepository;
+import com.example.rameshdemo.repo.EmployeeRepository;
 
 import java.util.List;
 import java.util.Optional;

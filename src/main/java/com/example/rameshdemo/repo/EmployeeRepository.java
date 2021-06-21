@@ -1,6 +1,6 @@
-package repo;
+package com.example.rameshdemo.repo;
 
-import model.Employee;
+import com.example.rameshdemo.model.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

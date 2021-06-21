@@ -1,6 +1,6 @@
-package service;
+package com.example.rameshdemo.service;
 
-import model.Employee;
+import com.example.rameshdemo.model.Employee;
 
 import java.util.List;
 
